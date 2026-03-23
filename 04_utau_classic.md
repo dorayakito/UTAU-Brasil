@@ -1,59 +1,47 @@
-# ✦ Tutorial: UTAU (2008-2013)
+# Tutorial: O Legado do UTAU Classic
 
-Apesar de antigo, o UTAU clássico ainda é muito utilizado para certas funcionalidades e plugins específicos.
-
-> [!IMPORTANT]
-> Para evitar que os arquivos do programa e dos bancos de voz sejam corrompidos (mojibake), você **DEVE** mudar o locale do Windows para Japonês antes de baixar e instalar.
+Muitos de nós começamos pelo UTAU clássico. Ele tem aquela cara de programa do Windows XP, mas não se engane: ele ainda é uma ferramenta poderosíssima se você souber como domar a fera.
 
 ---
 
-### Passo 1: Mudar o Locale do Windows
+### O Primeiro Grande Passo: Japanese Locale
 
-1. Aperte `Windows + R`, digite `control panel` e aperte Enter.
-2. Vá em **Relógio e Região -> Região**.
-3. Na aba **Formatos**, clique em **Configurações Adicionais**.
-4. Mude o **Símbolo Decimal** de vírgula (,) para ponto (.). Clique em OK.
-5. Volte para a aba **Administrativo** e clique em **Alterar localidade do sistema**.
-6. Escolha **Japonês (Japão)**. Clique em OK.
-7. O computador pedirá para reiniciar. Faça isso imediatamente.
+Eu sei que a gente já falou disso, mas é sério: **Não tente abrir o UTAU sem mudar o Locale do Windows pra Japonês antes.**
+- Vá em Painel de Controle -> Região -> Administrativo -> Alterar localidade do sistema.
+- Escolha **Japonês (Japão)**.
+- Reinicie o computador.
+Isso é o que garante que o programa entenda os arquivos de voz.
 
 ---
 
-### Passo 2: Instalação do Programa
+### Conhecendo a Interface
 
-1. Após reiniciar, baixe a versão mais recente (v0.4.19) do site oficial.
-2. Extraia o arquivo `.zip` (ex: área de trabalho).
-3. Execute o `utau0419cInstaller.exe`.
-4. Siga as instruções em japonês (botões de prosseguir).
-5. **Dica:** Recomendamos instalar fora de `Arquivos de Programas` (ex: nos Documentos ou Área de Trabalho) para evitar problemas de permissão do Windows ao editar arquivos.
+- **Piano Roll**: No centro, onde você desenha as notas.
+- **Menu de Propriedades**: Clique com o botão direito na nota pra mudar as flags, o volume e a modulação.
+- **Botões do Topo**: Lá você encontra as ferramentas de seleção e os comandos de renderização.
 
 ---
 
-### Primeiro Contato
+### Como Importar um Banco de Voz
 
-Ao abrir o UTAU, você verá um piano roll e uma lista de ferramentas.
-O programa vem com o voicebank padrão `Defoko`.
-
-#### Traduzindo a Interface para Inglês
-Se a interface estiver em japonês e você preferir inglês:
-1. Vá no menu `Settings` (Configurações).
-2. Procure pela opção de mudança de idioma (referenciada nos tutoriais em vídeo como Pt1 e Pt2).
-
-#### Instalando Plugins
-Plugins facilitam muito o uso do UTAU.
-1. Baixe o plugin desejado.
-2. Coloque-o na pasta `plugins` dentro do diretório de instalação do UTAU.
-3. Eles aparecerão no menu superior do programa.
+No UTAU clássico, você coloca as pastas das vozes dentro da pasta `voice` (que fica onde você instalou o programa).
+- Depois de colocar a pasta lá, vá no menu do programa e selecione o banco.
+- Se aparecerem símbolos estranhos no nome (Mojibake), é porque o Locale não foi configurado direito.
 
 ---
 
-### Fazendo seu Primeiro Cover (WIP)
+### O Segredo dos Plugins
 
-O processo no UTAU original envolve importar uma UST, selecionar as notas e clicar em **Play**.
-- Use o menu **Voice Bank Settings** para trocar de cantor.
-- Use **Project Configuration** para definir o resampler e wavtool.
+O que mantém o UTAU antigo vivo são os plugins.
+- **Iroiro**: Essencial pra converter letras e organizar o projeto.
+- **AutoPitch**: Ajuda a criar aquelas curvas de afinação automáticas pra voz não soar tão reta.
+- **Dica**: Coloque os arquivos do plugin na pasta `plugins` e reinicie o programa. Eles vão aparecer no menu `Tools -> Plugins`.
 
 ---
 
-[wip]
-(mais informações sobre direção de pastas e restrições do windows serão adicionadas futuramente)
+### Renderizando seu Trabalho
+
+Pra ouvir a música inteira, você precisa selecionar todas as notas e apertar o botão de Play. O UTAU vai gerar pequenos arquivos de áudio temporários e depois tocar tudo junto.
+- **Dica**: Se a renderização demorar muito, dê uma olhada no Resampler que você está usando. O `moresampler` costuma ser bem mais rápido que o padrão.
+
+O UTAU clássico exige paciência, mas a sensação de fazer ele funcionar direitinho é gratificante demais. Vamos que vamos!

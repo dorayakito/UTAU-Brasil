@@ -1,78 +1,43 @@
-# ✦ Tutorial: OpenUtau - UTAU
+# Tutorial: Começando com o OpenUtau
 
-O OpenUtau é uma recriação open source do programa UTAU de 2008, uma versão moderna com melhor compatibilidade, suporte a línguas e novas tecnologias. Recomendamos utilizar o OpenUtau nos dias atuais.
-
----
-
-### Download e Instalação
-
-1. Vá até o site oficial do OpenUtau.
-2. Na aba **Home**, escolha o download para seu sistema (Windows, macOS ou Linux).
-3. Crie uma pasta em um local de fácil acesso (ex: Área de Trabalho).
-4. Extraia o conteúdo do arquivo `.zip` para dentro desta pasta.
-5. Clique em `OpenUtau.exe` para abrir.
+Se você quer uma experiência tranquila e moderna, o OpenUtau é o seu lugar. Ele foi criado pra resolver todos aqueles problemas chatos do UTAU antigo. Vamos ver como dar os primeiros passos.
 
 ---
 
-### Configuração Básica
+### 1. Instalando sem Medo
 
-As configurações ficam em **Ferramentas -> Preferências** (*Tools -> Preferences*).
-
-1. **Reprodução (*Playback*):** Escolha o dispositivo de saída (seu fone ou caixa de som).
-2. **Aparência (*Appearance*):** Selecione a língua e o tema do programa.
-3. **Resamplers e Wavtools:** Na pasta onde o OpenUtau está instalado, existem as subpastas `Resamplers` e `Wavtools`. Coloque os motores de renderização baixados dentro delas para usá-los no programa.
+Depois de baixar o projeto do GitHub, você vai ver que ele é bem direto. Não precisa instalar no sentido clássico; você só extrai a pasta e roda o executável.
+- **Dica**: Mantenha o OpenUtau numa pasta de fácil acesso, tipo `C:\OpenUtau`. Evite colocar dentro do `Arquivos de Programas` porque o Windows às vezes bloqueia a escrita de arquivos lá.
 
 ---
 
-### Controles da Interface
+### 2. Colocando Voz no Programa
 
-A interface é separada em:
-
-1. **UI Principal:** Ferramentas e as faixas (*tracks*).
-2. **Faixas (*Tracks*):** Onde você escolhe bancos de voz, phonemizers, resamplers e wavtools.
-3. **Partes:** Blocos que guardam as notas que o banco canta.
-4. **Piano Roll:** Clique duplo em uma Parte para abrir. Aqui você cria e edita notas musicais.
-
-**Atalhos Úteis:**
-- `T`: Abre/Fecha o menu de ajuda rápida.
-- `Rolar`: Rolagem vertical.
-- `Ctrl + Rolar`: Zoom horizontal.
-- `Alt + Rolar`: Zoom vertical.
-- `Enter`: Abre o menu de lírica da nota.
-- `Ctrl + A`: Selecionar tudo.
-- `Ctrl + Seta Cima/Baixo`: Mudar o tom (oitava).
+O OpenUtau guarda os bancos de voz na pasta `Vocaloids` (dentro da pasta do programa).
+- Pra instalar um banco novo, é só arrastar a pasta do voicebank pra dentro dessa pasta `Vocaloids`.
+- Ou melhor ainda: Arraste o arquivo `.zip` do banco direto pra janela do OpenUtau aberto e ele instala sozinho pra você!
 
 ---
 
-### Instalando Voicebanks (Singers)
+### 3. Criando sua Primeira Melodia
 
-1. **Método 1 (Arrastar e Soltar):** Arraste o arquivo `.zip` ou `.rar` do banco de voz para qualquer lugar na interface do OpenUtau.
-2. **Método 2 (Instalar Voz):** Vá em **Ferramentas -> Instalar voz**.
-
-> [!WARNING]
-> No Windows sem locale japonês, descompactar bancos manualmente pode corromper arquivos (mojibake). Instale sempre pela interface do OpenUtau.
+- **Piano Roll**: É onde a mágica acontece. Clique e arraste pra criar notas.
+- **Letras**: Clique duas vezes na nota e digite o que você quer que o UTAU cante.
+- **Phonemizers**: No canto superior, você escolhe o Phonemizer (ex: `JA VCV` para japonês ou `PT-BR` para português). O programa vai entender o que você digitou e traduzir pro banco de voz automaticamente.
 
 ---
 
-### Fazendo seu Primeiro Cover
+### 4. Coisas Legais que o OpenUtau Faz
 
-1. **Preparação:** Você precisará de um voicebank, um arquivo de sequência (UST/USTx/VSQx) e a instrumental da música.
-2. **Importação:** Arraste o arquivo MIDI/UST/VSQx para a interface. Ou use **Arquivo -> Importar Faixas**.
-3. **Configuração:** Clique no botão de voz na faixa e escolha seu cantor.
-4. **Phonemizer:** Escolha o fonemizador adequado para o seu banco. Para bancos japoneses comuns, use: `JA VCV & CVVC Japanese presamp Phonemizer`.
-5. **Formatação de Lírica:** Se a UST estiver em VCV e você usa um banco CV, selecione todas as notas → **Lírica -> (Japonês) VCV para CV**. Para remover caracteres extras, use **substituição geral da letra -> Remove non-hiragana**.
-6. **Tuning Básico:**
-   - **Curvas de tom:** Manipule os pontos com o mouse.
-   - **Vibrato:** Clique no botão de vibrato na parte inferior da nota.
-   - **Desenho de tom:** Use a ferramenta de desenho na barra superior para desenhar curvas livremente.
-7. **Exportação:** Vá em **Arquivo -> Exportar arquivos para wav**.
+- **Resampling em tempo real**: Você muda a nota e já ouve o resultado na hora, sem precisar esperar carregar.
+- **Suporte a IA**: Ele já está pronto pra rodar bancos de voz super realistas (tipo DiffSinger e ENUNU).
+- **Múltiplas Línguas**: Ele lida muito bem com português, inglês e japonês no mesmo projeto.
 
 ---
 
-### Flags no OpenUtau
+### Dicas de Ouro
 
-1. Abra o **Menu de Expressões**.
-2. Adicione uma nova expressão (+).
-3. Dê nome e abreviação.
-4. Troque o modo para "Opções".
-5. Ative "É uma flag" e salve.
+- Se o som estiver cortando ou com click, dá uma olhada no **Crossfade** (as bordinhas entre as notas no topo). O OpenUtau tenta ajustar isso sozinho, mas às vezes a gente precisa dar um empurrãozinho manual.
+- Use a barra de espaço pra dar Play e Stop. É o básico do básico, mas agiliza muito o trabalho.
+
+O OpenUtau é uma ferramenta de comunidade, então ele está sempre atualizando. Fique de olho nas novas versões!

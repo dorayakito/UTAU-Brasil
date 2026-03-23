@@ -1,44 +1,40 @@
-# ✦ Tipos de Voicebank e Phonemizers
+# Tipos de Voicebank: Qual Eu Devo Escolher?
 
-Cada banco de voz tem seu formato de gravação e configuração. É fundamental entender a diferença entre eles para saber como usá-los corretamente.
-
----
-
-### Métodos de Gravação
-
-| Sigla | Nome | Como Funciona |
-|-------|------|---------------|
-| **CV** | Consoante Vogal | Ex: `ko`, `ko`, `ro`. Cada nota é uma sílaba simples. Mais fácil de gravar e configurar, mas pode soar menos natural. |
-| **VCV**| Vogal Consoante Vogal | Ex: `- ko`, `o ko`, `o ro`. Onde `-` é o silêncio. Focado na transição suave entre a vogal anterior e a sílaba atual. |
-| **CVVC**| CV + VC | Ex: `[ko] [o r] [ro]`. Híbrido que usa conexões de vogal para consoante para suavizar o canto. Fácil de gravar e resultados ótimos. |
-| **CVC** | Consoante Vogal Consoante | Usado para línguas complexas como Português ou Russo. Ex: `[-t] [-r a] [a b] [b a] [a lh] [lh a] [a rh-]`. |
-| **VCCV**| VCCV | Extensão do CVVC para línguas como Inglês. Foca em preservar a transição natural das consoantes. |
-| **Rentan**| Fake VCV | Basicamente um CV com uma "faux-vogal" (falsa vogal) para simular a suavidade do VCV sem precisar gravar todas as combinações. |
+Quando você decide criar seu próprio UTAU ou baixar um banco novo, a primeira pergunta é sempre sobre o "tipo" da voz. Cada método tem suas vantagens e dificuldades. Vamos ver qual combina mais com você.
 
 ---
 
-### Terminologia Adicional
-
-**Mora (モーラ)**
-Unidade linguística usada para medir a duração de um som. No UTAU, é representado por um underline (`_`) e indica que os sons foram gravados de forma contínua.
-
-**Multipitch (ou Multitom)**
-Bancos gravados em mais de um tom (ex: A3, D4, G4). Permitem que o UTAU alcance notas mais altas ou baixas com maior qualidade.
-
-**Kire (Powerscale)**
-Gravação multipitch onde os tons mais baixos são suaves e os mais altos são poderosos/gritantes.
-
-**Append(s)**
-Bancos adicionais com tons de voz específicos (Soft, Dark, Power, Whisper).
+### 1. CV (Consonant-Vowel) - O Simples
+É o modo clássico e fácil. Cada som é gravado sozinho (ex: `ka`, `te`, `no`).
+- **Prós**: É muito rápido de gravar e configurar.
+- **Contras**: Pode soar meio robótico, como se as notas fossem cortadas.
+- **Pra quem é?**: Pra quem está começando agora e quer ver resultados rápidos.
 
 ---
 
-### Phonemizers (Fonemizadores)
+### 2. VCV (Vowel-Consonant-Vowel) - O Natural
+Aqui você grava sequências de sons (ex: `a ka sa ta na`). O programa usa a transição da vogal anterior pra ligar as notas.
+- **Prós**: O som fica muito mais suave e parecido com uma voz humana de verdade.
+- **Contras**: É muito cansativo de gravar e a configuração (oto.ini) é bem mais complexa.
+- **Pra quem é?**: Pra quem já tem experiência e busca um som profissional e fluído.
 
-Um Phonemizer converte o texto simples em notas separadas com a notação correta do banco de voz.
+---
 
-- **Utilidade:** Facilita muito o uso de bancos complexos (como CVVC ou VCV) ao evitar que você precise digitar cada fonema manualmente.
-- **No OpenUtau:** Você pode alterar o Phonemizer clicando no botão abaixo do nome do cantor na track.
+### 3. CVVC - O Equilíbrio
+Esse método foca nas emendas entre os sons. Ele grava a consoante separada da vogal e depois junta tudo.
+- **Prós**: É excelente para línguas que não são o japonês (como o nosso português). Ocupa menos espaço que o VCV.
+- **Contras**: Exige um pouco mais de malícia técnica na hora de usar no piano roll.
+- **Pra quem é?**: Pra quem quer fazer o UTAU cantar em português ou inglês com qualidade sem morrer de gravar.
 
-**Exemplo:**
-Ao usar um banco Português CVC e digitar `pão`, o phonemizer converte para `[p an w]`.
+---
+
+### 4. VCCV / CVC
+São métodos específicos para línguas como o inglês, focando nas consoantes que vêm depois das vogais. É o que permite que o "love" soe como "love" e não "lo-ve".
+
+---
+
+### Qual a melhor escolha pra você?
+
+Se o seu objetivo é o japonês e você quer qualidade, o **VCV** é o padrão de ouro. Para o português brasileiro, eu recomendo fortemente o **CVVC/CVC**, porque ele lida muito melhor com os nossos ditongos e consoantes finais.
+
+Não tenha medo de experimentar! Muitos bancos famosos começaram sendo CV e depois foram evoluindo conforme o criador ganhava confiança.

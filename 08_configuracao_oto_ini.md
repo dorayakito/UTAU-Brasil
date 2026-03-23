@@ -1,43 +1,38 @@
-# ✦ Tutorial: Configuração oto.ini
+# Tutorial: Desvendando a Configuração oto.ini
 
-A `oto.ini` é o arquivo mais importante do banco de voz. Ele diz ao software como interpretar e cortar as gravações para que o canto soe natural.
-
----
-
-### Os 6 Parâmetros da oto.ini
-
-1. **Alias:** Nome alternativo. Ex: `ka.wav` pode ter o alias `ka`.
-2. **Offset (Deslocamento):** Área inicial em azul. Tudo antes disso é ignorado.
-3. **Consonant (Área Rosa):** Área que **não** é esticada pelo motor. Serve para proteger o som da consoante.
-4. **Cutoff (Corte):** Área final em azul. Corta o final do áudio. Se o valor for negativo, ele conta a partir do final do arquivo.
-5. **Preutterance (Linha Vermelha):** Indica onde a nota musical começa.
-6. **Overlap (Linha Verde):** Define o quanto o som se cruza com a nota anterior para uma transição suave.
+Muita gente desiste do UTAU aqui, mas eu prometo que não é um bicho de sete cabeças. A oto.ini é o coração do banco de voz; é ela quem diz pro programa: "Ei, a consoante termina aqui e a vogal começa ali!".
 
 ---
 
-### Como configurar (Método CV)
+### Entendendo os Parâmetros Técnicos
 
-Siga esta ordem para configurar cada fonema:
+Quando você abre o editor de oto.ini (no SetParam ou no próprio UTAU), você vê 5 valores principais:
 
-1. **Offset:** Corte o silêncio inicial até o comecinho da consoante.
-2. **Overlap:**
-   - **Plosivas (b, d, g, k, p, t):** Deixe um pequeno espaço antes do pico do som.
-   - **Não-plosivas (f, h, m, n, r, s, sh, v, z):** Deixe no meio do som da consoante.
-3. **Preutterance:** Posicione exatamente no início da vogal (onde a onda fica mais "cheia").
-4. **Consonant (Rosa):** Cubra toda a consoante e uma pequena parte do início da vogal.
-5. **Cutoff:** Corte o final do áudio, deixando apenas a parte da vogal que soa bem e está estável.
+1. **Offset (Canhoto)**: É o quanto de silêncio sobrou antes do som começar. Você puxa essa linha até o início exato da onde o som aparece.
+2. **Consonant (Consoante Fixa)**: É a área rosa. O UTAU **NÃO** via esticar o áudio que estiver nessa área. Coloque isso cobrindo toda a consoante.
+3. **Preutterance (Pré-expressão)**: É a linha vermelha. Ela define o "ataque" da nota. Ela deve ficar exatamente onde o som principal (a vogal) começa a aparecer com força.
+4. **Overlap (Sobreposição)**: É a linha verde. Ela diz o quanto esse som vai "subir" em cima da nota anterior pra transição ficar suave.
+5. **Cut-off (Corte Direito)**: É a área branca no final. Use isso pra tirar o silêncio que sobrou depois que o som acabou.
 
 ---
 
-### Dicas Importantes
+### Como Fazer uma oto.ini de Qualidade
 
-- **Regra do Volume:** Se a vogal oscila muito de volume, ajuste o loop (parte branca) para uma área mais estável.
-- **Transições Suaves:** Um overlap maior ajuda nas não-plosivas, enquanto um overlap menor evita "comer" o som das plosivas.
-- **Uso de Ferramentas:** Recomendamos o uso do **vLabeler** ou **SetParam** para editar a `oto.ini` visualmente, ao invés de editar texto manualmente.
+- **Zoom é seu melhor amigo**: Dê bastante zoom na onda do áudio pra ver os detalhes.
+- **Foque no Ritmo**: Se o seu UTAU parece que está cantando atrasado, o problema geralmente é o **Preutterance**. Mova ele um pouco pra frente.
+- **Transições Suaves**: O **Overlap** é o segredo. Se ele estiver zerado, as notas vão soar "picotadas". Se estiver muito alto, as notas vão embolar.
 
 ---
 
-### Vídeo Tutorial Recomendado
+### Atalhos que Ajudam Muito
 
-Assista à série:
-- [Aprenda a fazer oto.ini FINALMENTE](https://www.youtube.com/watch?v=dQw4w9WgXcQ) (Link ilustrativo, verifique o link real na Megathread original se disponível).
+- **Barra de Espaço**: Dá play pra você ouvir se o corte ficou bom.
+- **S e E**: Marcam o início e fim da seleção rapidamente em alguns editores.
+
+---
+
+### Dá pra automatizar?
+
+Existem ferramentas de "Auto-oto.ini", mas honestamente? Elas nunca ficam perfeitas. O melhor é usar o automático pra ter uma base e depois ir ajustando nota por nota manualmente. É um trabalho de formiguinha, mas o resultado final vale muito a pena.
+
+Se o seu UTAU canta direitinho no ritmo, o crédito é todo da sua oto.ini bem feita!

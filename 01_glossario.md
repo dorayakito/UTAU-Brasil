@@ -1,150 +1,35 @@
-# ✦ Glossário UTAU
+# Glossário: Entendendo o "Utaulês"
 
-Um glossário é como um dicionário de palavras específicas referentes a um meio individual ou social. Neste caso apresentamos um glossário completo de palavras que se encontram na rotina de quem utiliza UTAU e por vezes outros sintetizadores. Estes conjuntos de definições te ajudarão em seu crescimento bem como no seu desenvolvimento.
-
----
-
-### Termos Principais
-
-**UTAU**
-A etimologia da palavra diz respeito direto ao verbo “Cantar”, onde “uta (歌)” significa “canto” e o “u (う)” no final indica verbo. UTAU é um programa shareware de síntese vocal gratuito, no mesmo estilo que o Vocaloid.
-
-**OpenUtau**
-Programa de síntese vocal de código aberto, e também um sucessor não oficial do UTAU. Foi criado em 2014, devido ao programa UTAU não ter recebido updates desde 2013. É conhecido por ser mais prático e menos arcaico que o UTAU normal, oferecendo suporte a Windows, MacOS e Linux, ferramentas que facilitam o Tuning, e suporte a bancos de vozes AI (ENUNU, DiffSinger).
-
-**VOCALOID**
-Um programa comercial de síntese vocal, mais popular que o UTAU. Há muita interseção entre as músicas de Vocaloid e o UTAU.
-
-**Sintetizador de Voz (ou Vocal Synth)**
-O ato de criar um instrumento musical a partir de uma voz real. Ao pegar amostras de uma voz real e programá-las, podemos "fazer um programa de computador cantar".
-
-**Bancos de vozes (ou Voicebanks/VB’s)**
-Arquivos de áudio, imagem e configurações específicas orientadas na pasta ou compactadas. Ex: “Lançou voicebank novo da Marialoid”.
-
-**UTAUloid(s)**
-As vozes criadas para o programa, que geralmente vem com um avatar/personagem próprio. Muitos usuários tratam seus Bancos de Vozes como OCs (personagens originais).
-
-**Voicer Provider (Provedor de Voz ou VP)**
-Pessoas que emprestam suas vozes a bancos de vozes. Podem ser pessoas sem experiência em canto, ou cantores e dubladores profissionais.
-
-**Demo / Demo Reel**
-Demonstrações de bancos de vozes. Demo Reel é o nome dado para várias demonstrações em um vídeo só.
-
-**Release**
-Vídeos feitos para lançar bancos de vozes para UTAU.
-
-**TOS (Termos de Serviço)**
-Conjunto de regras para o uso de um Banco de voz.
+Se você caiu de paraquedas no mundo do UTAU, deve ter dado de cara com um monte de siglas que parecem grego. Não se preocupa, a gente preparou esse guia pra você não se perder mais nas conversas da comunidade.
 
 ---
 
-### Arquivos e Configurações
+### Os Termos que Você Precisa Saber
 
-**.WAV**
-Formato de áudio digital sem compressão usado para as amostras.
-
-**.UST**
-Arquivos de Texto de Sequência Utau (Utau Sequence Text File). O formato de arquivo que o programa UTAU usa, semelhante a uma partitura.
-
-**MIDI**
-Formato de arquivo frequentemente usado para criar arquivos UST.
-
-**Flags**
-Modificadores de voz inseridos nas propriedades de um arquivo UST (soar mais doce, suave, abafada, etc).
-
-**Reclist**
-Lista de gravação (geralmente .txt) com os fonemas que serão reconhecidos pelo software de gravação (OREMO/AKORIN).
-
-**Fonema**
-Termo utilizado para descrever sons de um voicebank ou conotação de uma reclist.
-
-**oto.ini**
-O arquivo de configuração do banco de voz. Essencial para que ele cante de forma suave e entendível.
-
-**Alias**
-Nomes alternativos dados às gravações WAV no arquivo `oto.ini`.
-
-**Prefix / Suffix**
-Utilizados para designar pitches e appends dentro do `prefix.map`. Ex: `[- かC4]` (Sufixo), `[C4- か]` (Prefixo).
+- **VB (Voicebank)**: É a alma do negócio. Basicamente, é a pasta que guarda todos os áudios gravados que dão voz ao seu personagem. Sem um VB, o UTAU é só um programa vazio.
+- **UST (UTAU Sequence Text)**: É o arquivo do projeto da música. Se você quer que o UTAU cante uma música específica, você precisa do UST dela. É como se fosse o "DNA" da melodia.
+- **USTX**: É o formato de arquivo do OpenUtau. Ele é mais moderno e guarda muito mais informação que o UST antigo.
+- **Resampler**: É o motor que processa a voz. Sabe quando você muda a nota no piano roll? O resampler é quem vira a chave pra voz subir ou descer o tom.
+- **oto.ini**: É o arquivo de configuração de cada áudio. Ele diz pro UTAU exatamente onde começa e onde termina cada som. Se a oto.ini estiver ruim, o UTAU vai cantar "travado" ou fora do ritmo.
+- **Flags**: São pequenos comandos de texto (tipo `g+10`) que você coloca nas notas pra mudar o estilo da voz (deixar mais grossa, mais fina, com sopro, etc).
+- **Phonemizer**: Uma ferramenta mágica que converte o texto que você digita (tipo "pão") nos sons que o banco de voz entende. No OpenUtau isso é automático!
 
 ---
 
-### Métodos de Gravação
+### Métodos de Voz (A sopa de letrinhas)
 
-**Método(s)**
-Sequência de passos e forma de organização de voicebanks. Cada reclist tem seu método.
-
-**CV (Consoante Vogal)**
-Estilo mais simples e básico. Recomendado para iniciantes.
-
-**Rentan (Fake VCV)**
-Semelhante ao CV, mas configurado para soar suave como VCV. Também chamado de "VCV preguiçoso" ou "eVCV".
-
-**VCV (Vogal Consoante Vogal)**
-Forma mais popular e suave, mas requer mais gravações.
-
-**VCV Lite (VCV Renzoku)**
-Versão menor do VCV, focada nos caracteres mais usados.
-
-**CVVC**
-Banco CV com conexões VC adicionais. Fácil de gravar e suave se bem configurado.
-
-**VCCV**
-Usado para línguas não silábicas (Inglês, Português), focado em transições naturais.
+- **CV (Consonant-Vowel)**: O método mais básico e antigo. As amostras são sons simples como `ka`, `ki`, `ku`. É fácil de fazer, mas pode soar meio robótico se não for bem trabalhado.
+- **VCV (Vowel-Consonant-Vowel)**: O queridinho para um som mais natural. Ele grava as transições entre as vogais, o que deixa o canto muito mais "ligado" e fluído.
+- **CVVC**: Um meio termo entre o CV e o VCV. É ótimo para línguas como o português e o inglês, porque foca bastante nas transições entre consoantes e vogais.
 
 ---
 
-### Software e Ferramentas
+### Outros Conceitos
 
-**Phonemizer (Fonemizador)**
-Converte palavras ou fonemas em notas separadas. Ex: `[pão]` ➪ `[p an w]`.
+- **Wavtool**: Trabalha junto com o resampler pra "colar" os pedacinhos de áudio e formar a música final.
+- **Rendering**: É o processo de "cozinhar" a música. Quando você aperta o play e o programa gera o som, ele está renderizando.
+- **Bank**: Abreviação de Voicebank.
+- **Voicer**: A pessoa real que emprestou a voz para gravar o banco.
+- **UTAUloid / UTAU**: O personagem virtual em si (tipo a Kasane Teto).
 
-**Mora (モーラ)**
-Unidade linguística de duração. No UTAU, representado por `_` indicando gravação contínua.
-
-**Pitch/Pitches**
-Curvas de tom nas notas e também os tons gravados (Monopitch, Bipitch, Multipitch).
-
-**Kire (Powerscale)**
-Estilo de gravação multipitch com potência vocal crescente.
-
-**Append(s)**
-Bancos adicionais com tipos de voz específicos (Soft, Dark, Power, etc).
-
-**Tuning**
-Alteração manual do pitch, flags e parâmetros para melhorar o canto.
-
-**Consonant Velocity (VEL)**
-Altera a velocidade das consoantes.
-
-**Resampler**
-Motor que renderiza os arquivos WAV.
-
-**Frequência (.FRQ)**
-Arquivos gerados pelo resampler para ler o tom das amostras.
-
----
-
-### DAWs e Editores
-
-**Mixagem (Mixing)**
-Processo de misturar os vocais renderizados com a instrumental.
-
-**DAW (Digital Audio Workstation)**
-Software de áudio para gravação, edição e mixagem (FL Studio, Reaper, Audacity, LMMS, Ableton).
-
-**OREMO / Akorin / RecStar**
-Softwares específicos para gravação de voicebanks.
-
-**setParam / vLabeler**
-Programas para configuração da `oto.ini`.
-
----
-
-### Cultura e Idioma
-
-**Nico Nico Douga**
-Site de compartilhamento de vídeos japonês popular para UTAU.
-
-**Hiragana / Katakana / Romaji**
-Sistemas de escrita japoneses usados no contexto do UTAU para fonemas e nomes de personagens.
+Pronto! Agora que você já manja das gírias, fica muito mais fácil seguir os tutoriais. Ficou na dúvida? Volta aqui e dá uma conferida.

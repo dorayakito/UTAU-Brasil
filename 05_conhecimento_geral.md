@@ -1,38 +1,45 @@
-# ✦ Conhecimento Geral: Voicebanks, USTs e Arquivos
+# Conhecimento Geral: Onde Encontrar as Coisas?
 
-### Onde encontrar Voicebanks?
-
-1. **Wiki da VocalSynth Brasil:** Nossa wiki colaborativa que categoriza bancos de voz, canções e informações sobre produtores da comunidade brasileira.
-2. **YouTube e Google:** Pesquise por `UTAU Release` ou `[Nome do UTAU] + Release`. Geralmente, os vídeos de lançamento (Cover ou Demo Reel) possuem links de download na descrição.
-3. **Sites Oficiais e Wikis:** Muitos UTAUs famosos possuem sites próprios ou páginas na UTAU Wiki 2.0.
-
-> [!TIP]
-> A maioria dos bancos sem informação de língua explícita são feitos para a língua japonesa.
+Você já instalou o programa, mas agora precisa de "matéria-prima": vozes, músicas e arquivos de projeto. A comunidade de UTAU é gigantesca e tem conteúdo espalhado por todo canto da internet.
 
 ---
 
-### Onde encontrar USTs (Sequências)?
+### Onde eu acho Vozes (Voicebanks)?
 
-USTs são as "partituras" do UTAU. Você pode encontrá-las em:
-- **YouTube/Niconico:** Pesquise por `Nome da Música + UST`.
-- **Bowlroll:** Um site de upload de arquivos muito usado pela comunidade japonesa.
-- **UtaFormatix:** Site útil para converter entre diferentes formatos de sequência (UST, USTx, VSQx, MIDI, etc).
-
----
-
-### Tipos de Arquivo
-
-| Formato | Nome | Descrição |
-|---------|------|-----------|
-| **.WAV** | Waveform | Áudio sem compressão (as amostras do banco). |
-| **.MID / .MIDI**| MIDI | Interface Digital de Instrumentos. Contém apenas notas, sem áudio. |
-| **.UST** | UTAU Sequence | Formato nativo do UTAU clássico. |
-| **.USTx** | OpenUtau Sequence| Formato do OpenUtau, com suporte a multifaixas e parâmetros modernos. |
-| **.VSQ / .VSQx**| Vocaloid Sequence| Formato nativo do software VOCALOID. |
+Existem milhares de UTAUloids por aí. Alguns dos melhores lugares pra procurar são:
+- **UTAU Wiki 2.0**: Uma enciclopédia enorme com fichas de personagens e links oficiais de download.
+- **BowlRoll**: Um site japonês muito usado pra hospedar arquivos de UTAU e MMD. Use a busca do Google pra achar o que quer lá dentro.
+- **YouTube/SoundCloud**: Muitos criadores lançam seus bancos com um vídeo de demonstração e colocam o link na descrição.
 
 ---
 
-### Conversão de Arquivos
+### Como eu acho Músicas pra Editar (USTs)?
 
-Você pode converter praticamente qualquer formato de sequência usando o **[UtaFormatix](https://utau.vocalover.io/)**.
-É uma ferramenta web simples: basta arrastar seu arquivo e escolher o formato de saída desejado.
+Se você não quer escrever a partitura do zero, você pode procurar por um **UST** (projeto de UTAU).
+- Digite no YouTube: `Nome da Música + UTAU UST` ou `Nome da Música + UST Download`.
+- **Aviso de Ética**: Sempre dê créditos ao criador do UST. Muita gente gasta horas ouvindo a música e tirando as notas de ouvido pra gente poder usar de graça.
+
+---
+
+### Convertendo Arquivos
+
+Às vezes você acha um projeto em outro formato:
+- **VSQX (Vocaloid)** ou **SVP (Synthesizer V)**.
+- Você pode usar sites como o **UtaFormatix** pra converter esses projetos para o formato do UTAU (.ust ou .ustx). É uma mão na roda!
+
+---
+
+### Dicas de Busca em Japonês
+
+Muitas coisas legais só estão em japonês. Aqui vão algumas palavras-chave pra ajudar no Google:
+- 音源 (Ongen): Banco de voz.
+- 配布 (Haifu): Distribuição/Download.
+- カバー (Kabaa): Cover.
+
+---
+
+### Mantenha a Organização!
+
+Meu conselho de amigo: crie uma pasta só pra suas vozes e outra só pros seus projetos. Com o tempo, você vai acumulando centenas de arquivos e, se não estiver organizado, vai ser um pesadelo achar aquela voz específica que você ama.
+
+Explorar a comunidade é metade da diversão. Divirta-se descobrindo novos cantores virtuais!

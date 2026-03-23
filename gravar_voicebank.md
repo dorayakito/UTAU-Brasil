@@ -108,7 +108,7 @@ Tenha em mente de manter constância durante a gravação, exemplo abaixo:
 ### Configurações Técnicas
 - **Sample Rate**: 44.1kHz ou 48kHz (consistente!)
 - **Bitrate**: 16-bit ou 24-bit
-- **Formato final**: WAV (.wav) - **mono** (fundamental!)
+- **Formato final**: .wav (.wav) - **mono** (fundamental!)
 - **Volume**: -12dB a -6dB (evite clipping/distortion)
 
 ### Técnica de Performance (Opcional mas recomendado)
@@ -285,7 +285,7 @@ Para VCV japonês completo, você precisa gravar:
 - 5 vogais de entrada (para início de frase)
 - 46 sílabas CV × 5 contextos = 230 amostras aproximadamente
 
-Use o método **Harus**: grave tudo num único arquivo WAV longo e use ferramentas como **AutoCVVC** ou **Phonemizer VCV & CVVC JA** no OpenUtau
+Use o método **Harus**: grave tudo num único arquivo .wav longo e use ferramentas como **AutoCVVC** ou **Phonemizer VCV & CVVC JA** no OpenUtau
 
 ### Multipitch (Vários tons)
 Grave em 3 tons diferentes (ex: C3, F3, B3):
@@ -326,7 +326,7 @@ ka.wav=ca,100,40,-500,80,30  (alias para "ca")
 ## Checklist Final
 
 Antes de publicar seu UTAU:
-- [ ] Todos os arquivos em MONO, 44.1kHz, 16-bit WAV
+- [ ] Todos os arquivos em MONO, 44.1kHz, 16-bit .wav
 - [ ] Oto.ini configurado para todos os fonemas
 - [ ] Testado em uma música completa
 - [ ] character.txt com nome e autor

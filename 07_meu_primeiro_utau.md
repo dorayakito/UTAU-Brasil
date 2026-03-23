@@ -1,61 +1,43 @@
-# ✦ Tutorial: Meu Primeiro UTAU
+# Guia: Criando seu Primeiro UTAU do Zero
 
-Criar seu próprio banco de voz é uma experiência recompensadora. Para iniciantes, recomendamos o método **CV Japonês** devido à sua simplicidade.
-
----
-
-### Reclist (Lista de Gravação)
-
-A **Reclist** é um arquivo `.txt` que contém os fonemas necessários para gravar seu banco. No UTAU, "fonema" refere-se às sílabas do alfabeto Japonês (Hiragana).
-
-Para iniciantes, foque nos 46 fonemas básicos (a, i, u, e, o, ka, ki, ku...).
+Ter seu próprio personagem cantando é uma sensação incrível. Mas calma, não adianta só sair gritando no microfone. Tem um processo que a gente deve seguir pra garantir que o som saia com qualidade.
 
 ---
 
-### Pronúncia Japonesa (Dicas para Brasileiros)
+### Preparação: O que você precisa?
 
-Ao gravar, lembre-se que, no Japonês, a consoante sempre mantém o mesmo som, independente da vogal.
-
-**Vogais:**
-- **u:** O som é mais curto e menos arredondado que o "u" do português.
-- **n (ん):** Semelhante ao "hmm", um som anasalado.
-
-**Consoantes:**
-- **sh:** Som de "ch" (chão).
-- **ch:** Som de "tch" (tchau).
-- **ts:** Som de "zz" (pizza), mas bem curto.
-- **h:** Som de "r" inicial (rancho).
-- **r:** Som de "r" entre vogais (arara). **Nunca** som de "r" forte.
-- **g:** Sempre som de "g" em "gato", inclusive em "ge" e "gi".
+1. **Microfone**: Não precisa ser o mais caro do mundo, mas evite o microfone imbutido do notebook se puder. Um fone de celular já ajuda bastante no começo.
+2. **Ambiente**: Vá para um lugar silencioso. Se puder, coloque alguns cobertores em volta de você pra evitar o eco da sala.
+3. **OREMO**: Instale esse programa. Ele vai te mostrar as "reclists" (listas de sons) pra você ler.
 
 ---
 
-### Software de Gravação: OREMO
+### Hora de Gravar (O "Voicing")
 
-O OREMO é o software mais recomendado para gravar voicebanks de forma rápida.
-
-1. **Instalação:** Requer locale Japonês. Extraia em uma pasta vazia.
-2. **Configuração:**
-   - Vá em **Option -> Audio I/O Settings**.
-   - **Input Device:** Escolha seu microfone.
-   - **Output Device:** Escolha seu fone de ouvido.
-3. **Gravação:** Selecione o fonema na lista e aperte a `Barra de Espaço` (ou a tecla configurada) para gravar enquanto fala.
+- **Tom da Voz**: Tente manter o mesmo tom do começo ao fim. Escolha uma nota (tipo um C4) e cante todos os sons nessa mesma nota. Se a voz oscilar muito, o UTAU vai soar desafinado depois.
+- **Volume**: Mantenha o volume constante. Não grave um som gritando e o outro sussurrando.
+- **Clareza**: Fale as sílabas de um jeito natural, como se estivesse cantando uma música de verdade.
 
 ---
 
-### Software de Gravação: AKORIN
+### A Reclist (Lista de Gravação)
 
-O Akorin é uma alternativa moderna que **não** requer mudança de locale.
-
-1. **Vantagem:** Facilidade de instalação e interface leve.
-2. **Uso:** Semelhante ao OREMO. Ideal para quem não quer lidar com as configurações regionais do Windows.
+Se você vai fazer seu primeiro banco em japonês, procure pela `CV Reclist`. Ela tem cerca de 100 sons simples. Se for fazer em português, procure uma lista de `CVC PT-BR`.
+- **Dica**: No OREMO, você aperta a tecla pra baixo e ele já toca o som de referência pra você repetir. É muito prático!
 
 ---
 
-### Checklist de Gravação
+### Organizando os Arquivos
 
-- [ ] Use um microfone decente e evite ruídos de fundo (ventiladores, HDs barulhentos).
-- [ ] Mantenha uma distância constante do microfone (15-20cm).
-- [ ] **Consistência é a chave:** Mantenha o mesmo tom e volume em todas as gravações.
-- [ ] Grave em **MONO, 44.1kHz, 16-bit WAV**.
-- [ ] Mantenha as vogais estáveis por pelo menos 1 a 2 segundos.
+Depois de terminar as gravações:
+1. Revise se não tem barulhos de fundo (clique de mouse, respiração forte).
+2. Salve tudo numa pasta com o nome do seu UTAU.
+3. Crie um arquivo `character.txt` com o nome do banco e o nome do autor (você!).
+
+---
+
+### O Próximo Passo: Configuração
+
+Gravar é só 50% do trabalho. Agora vem a parte de dizer pro programa como usar esses áudios (a famosa oto.ini). Mas não se desespere, a gente tem um guia só pra isso.
+
+Respire fundo, beba uma água e vamos gravar!

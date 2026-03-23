@@ -55,7 +55,7 @@ sample=sample_v2.wav
 - Nome simples, sem espaços: `icon.bmp`, `char.bmp`, `img.bmp`
 
 **Sample (sample):**
-- Formato: **WAV** (mono, 44.1kHz, 16-bit, mesma regra das amostras)
+- Formato: **.wav** (mono, 44.1kHz, 16-bit, mesma regra das amostras)
 - Duração: **2-5 segundos** (frase curta característica ou trecho de uma música)
 
 ---
