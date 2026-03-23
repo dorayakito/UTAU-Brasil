@@ -1,4 +1,4 @@
-# Tuning Vocaloid Style: A Estética do "Brilho Artificial"
+# Tuning Vocaloid Style
 
 Muita gente entrou no mundo do UTAU por causa da Hatsune Miku ou da GUMI. Esse estilo de afinação (tuning) é marcado por um som nítido, meio metálico e curvas de tom muito precisas. Vamos aprender a imitar esse visual e som icônico.
 
@@ -34,4 +34,4 @@ O portamento (deslize de tom) no estilo Vocaloid é usado estrategicamente no in
 - **TIPS** e **moresampler** são ótimos pra isso porque mantêm o brilho das frequências agudas muito bem.
 - Evite resamplers que "suavizam" demais o som se o seu objetivo é esse brilho metálico.
 
-O estilo Vocaloid é uma estética artística incrível que nunca sai de moda. Ele foca na energia e na clareza da voz sintética como um instrumento digital único!
+O estilo Vocaloid é uma estética artística incrível que nunca sai de moda. Ele foca na energia e na clareza da voz sintética;
