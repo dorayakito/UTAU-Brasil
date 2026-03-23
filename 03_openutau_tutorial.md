@@ -13,8 +13,8 @@ Depois de baixar o projeto do GitHub, você vai ver que ele é bem direto. Não 
 
 ### 2. Colocando Voz no Programa
 
-O OpenUtau guarda os bancos de voz na pasta `Vocaloids` (dentro da pasta do programa).
-- Pra instalar um banco novo, é só arrastar a pasta do voicebank pra dentro dessa pasta `Vocaloids`.
+O OpenUtau guarda os bancos de voz na pasta `singers` (dentro da pasta do programa).
+- Pra instalar um banco novo, é só arrastar a pasta do voicebank pra dentro dessa pasta `singers`.
 - Ou melhor ainda: Arraste o arquivo `.zip` do banco direto pra janela do OpenUtau aberto e ele instala sozinho pra você!
 
 ---
