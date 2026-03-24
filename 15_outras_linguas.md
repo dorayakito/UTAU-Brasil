@@ -34,4 +34,4 @@ Você sabia que pode fazer um banco japonês cantar em inglês ou chinês?
 - O segredo é ter um bom ouvido pra fonética.
 - No OpenUtau, você pode forçar um Phonemizer de uma língua num banco de outra (ex: usar Phonemizer de Inglês num banco Japonês). O programa vai tentar "traduzir" os sons pro que o banco tem disponível. Nem sempre fica perfeito, mas dá resultados muito interessantes e criativos!
 
-Não se prenda apenas a uma língua. O UTAU é seu instrumento e ele pode falar a língua que o seu coração mandar. Experimente!
+

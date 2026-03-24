@@ -38,4 +38,4 @@ Se no lugar das letras hiraganas aparecerem símbolos bizarros (tipo `âŠâ¬`)
 - **Drivers de Áudio**: O OpenUtau tenta se conectar aos seus fones ou caixas quando abre. Se não tiver nada conectado, ele pode dar crash. Conecte seu fone antes de abrir o programa.
 - **.NET Runtime**: Garanta que você instalou a versão mais nova do Microsoft .NET Desktop Runtime no seu PC.
 
-Erros fazem parte do aprendizado. Se nada disso funcionar, dê um grito nos fóruns de comunidade (tipo o Reddit ou Discord). Sempre tem alguém disposto a ajudar!
+

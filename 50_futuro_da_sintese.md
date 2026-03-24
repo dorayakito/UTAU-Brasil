@@ -30,11 +30,3 @@ Imagina ter seu personagem cantando na sua frente, no seu quarto, em hologramas 
 Muita gente tem medo da IA substituir o artista. Mas relaxa:
 - Por mais que a máquina aprenda a cantar perfeitamente, **quem decide o sentimento da música ainda é você.**
 - O "tuning", a escolha do timbre e a composição da letra são a alma da música. A tecnologia é apenas o seu pincel; o artista continua sendo você.
-
----
-
-### Um Convite Final
-
-O UTAU sobreviveu por quase duas décadas porque as pessoas nunca pararam de criar. Continue experimentando, continue gravando suas vozes e continue apoiando os desenvolvedores e artistas da comunidade.
-
-O futuro é brilhante e cheio de voz! Que tal começar sua próxima música agora mesmo? 

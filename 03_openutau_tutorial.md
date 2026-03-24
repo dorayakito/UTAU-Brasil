@@ -40,4 +40,4 @@ O OpenUtau guarda os bancos de voz na pasta `singers` (dentro da pasta do progra
 - Se o som estiver cortando ou com click, dá uma olhada no **Crossfade** (as bordinhas entre as notas no topo). O OpenUtau tenta ajustar isso sozinho, mas às vezes a gente precisa dar um empurrãozinho manual.
 - Use a barra de espaço pra dar Play e Stop. É o básico do básico, mas agiliza muito o trabalho.
 
-O OpenUtau é uma ferramenta de comunidade, então ele está sempre atualizando. Fique de olho nas novas versões!
+

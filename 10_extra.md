@@ -25,12 +25,5 @@ Além do que a gente explicou aqui, existem sites gringos que são verdadeiras b
 - **UtaForum**: O maior fórum de discussões e lançamentos de plugins e vozes.
 - **Twitter da Comunidade**: Use as hashtags `#UTAU` e `#OpenUtau`. Tem muita gente disposta a tirar dúvidas por lá.
 
----
 
-### Um Recado Pra Você
 
-A jornada do UTAU é longa e, às vezes, um pouco frustrante no começo. Mas não desista! A sensação de ver seu personagem ganhando vida e cantando uma música que você ama vale cada minuto de esforço.
-
-Experimente, erre, pergunte e, acima de tudo, divirta-se criando suas músicas. O mundo da síntese vocal é um lugar de criatividade sem limites.
-
-Vamos pra cima!

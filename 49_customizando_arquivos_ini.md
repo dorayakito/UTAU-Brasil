@@ -45,4 +45,4 @@ Regra de ouro: **Nunca mude nada num arquivo .ini sem fazer uma cópia de segura
 
 O OpenUtau é muito mais moderno e centraliza quase tudo nas configurações visuais do próprio programa. Mas, se você quer aventura, ele também tem arquivos de configuração que você pode editar pra mudar comportamentos profundos do motor de áudio.
 
-Personalizar suas ferramentas faz você se sentir mais "em casa" na hora de criar. Deixe seu estúdio virtual com a sua cara!
+

@@ -39,4 +39,4 @@ O erro mais comum é começar a gravar e, depois de 10 minutos, a voz ter descid
 
 Sua emoção passa pro banco de voz. Se você quer um banco de voz alegre, sorria enquanto grava (sim, o sorriso muda o timbre da voz!). Se quer um banco de voz triste, tente colocar esse sentimento na interpretação. 
 
-Você é o instrumento! Cuide bem de você pra que seu personagem possa cantar as melhores músicas.
+

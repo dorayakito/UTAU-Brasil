@@ -33,4 +33,4 @@ Se você está levando a sério a criação de uma IA:
 - Um microfone condensador de boa qualidade.
 - Um fone de ouvido fechado pra não vazar som do metrônomo pra gravação.
 
-Criar um dataset é um processo de paciência e cuidado. Pense nisso como se estivesse construindo os alicerces de uma casa: se a base estiver boa, o resto vai ficar maravilhoso!
+

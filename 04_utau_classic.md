@@ -44,4 +44,4 @@ O que mantém o UTAU antigo vivo são os plugins.
 Pra ouvir a música inteira, você precisa selecionar todas as notas e apertar o botão de Play. O UTAU vai gerar pequenos arquivos de áudio temporários e depois tocar tudo junto.
 - **Dica**: Se a renderização demorar muito, dê uma olhada no Resampler que você está usando. O `moresampler` costuma ser bem mais rápido que o padrão.
 
-O UTAU clássico exige paciência, mas a sensação de fazer ele funcionar direitinho é gratificante demais. Vamos que vamos!
+

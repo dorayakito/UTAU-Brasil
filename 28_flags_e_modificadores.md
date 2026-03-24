@@ -36,4 +36,4 @@ Nem todo resampler entende as mesmas flags.
 
 Se você quer que a voz saia exatamente como você gravou, sem o UTAU tentar "corrigir" o tom da amostra original, use a flag `mod0`. Isso evita um som robótico e metálico em muitos bancos de voz bem feitos.
 
-As flags parecem complicadas no começo, mas depois de um tempo você já decora seus combos favoritos (tipo `g+5mod0Y0B50`) e o processo vira automático!
+

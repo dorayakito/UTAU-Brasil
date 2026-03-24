@@ -34,4 +34,4 @@ Pronto, seu UTAU agora tem turbo!
 
 O OpenUtau já nasceu moderno, então ele faz tudo isso sozinho por padrão. Ele usa todos os núcleos do processador e lida com o VEL de um jeito super fluido. Se você busca velocidade pura, o OpenUtau é imbatível. Mas, se você gosta do clássico, o Patcher é obrigatório pra não passar raiva.
 
-Turbine seu fluxo de trabalho e gaste mais tempo criando e menos tempo olhando pra barra de carregamento!
+

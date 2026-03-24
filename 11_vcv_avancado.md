@@ -35,4 +35,4 @@ No UTAU clássico, usar VCV dá um trabalhinho:
 - Felizmente, existem plugins como o **Iroiro** ou o **AutoVcv** que fazem isso pra você em um clique.
 - No **OpenUtau**, basta selecionar o Phonemizer `JA VCV` e ele faz toda a mágica sozinho enquanto você digita em hiragana.
 
-O VCV exige mais memória do PC e mais paciência do criador, mas quando você ouve seu UTAU cantando suavemente, você sente que cada segundo valeu a pena!
+

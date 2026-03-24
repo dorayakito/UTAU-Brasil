@@ -36,4 +36,4 @@ O Delay é aquele "eco-eco-eco" que vai diminuindo.
 
 Se você fechar os olhos e conseguir sentir o "tamanho" da sala onde o personagem está, o efeito está bom. Se você começar a ouvir um "rastro" de som que atrapalha o entendimento da letra, você exagerou. 
 
-O Reverb e o Delay são como tempero na comida: um pouquinho realça o sabor, mas demais estraga o prato todo. Use com sabedoria!
+

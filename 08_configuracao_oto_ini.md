@@ -35,4 +35,4 @@ Quando você abre o editor de oto.ini (no SetParam ou no próprio UTAU), você v
 
 Existem ferramentas de "Auto-oto.ini", mas honestamente? Elas nunca ficam perfeitas. O melhor é usar o automático pra ter uma base e depois ir ajustando nota por nota manualmente. É um trabalho de formiguinha, mas o resultado final vale muito a pena.
 
-Se o seu UTAU canta direitinho no ritmo, o crédito é todo da sua oto.ini bem feita!
+

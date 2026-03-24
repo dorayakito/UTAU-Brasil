@@ -38,4 +38,4 @@ No OpenUtau, você desenha a curva de afinação direto em cima da nota.
 - Quer aquele vibrato de profissional? Use as ferramentas de curva e desenhe as oscilações.
 - O segredo de uma boa afinação é nunca deixar ela 100% reta. Pequenas oscilações dão um charme natural.
 
-Explore o painel de expressões sem medo. É ali que você tira o seu UTAU do "modo robô" e coloca ele no "modo artista".
+

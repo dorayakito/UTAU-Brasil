@@ -33,4 +33,4 @@ Durante o treino, você vai ver um gráfico descendo.
 - **Hardware**: Uma placa de vídeo da NVIDIA é quase obrigatória. Se o seu PC for fraquinho, você pode usar o **Google Colab**, que te empresta uma super máquina da nuvem pra treinar sua voz de graça (ou quase).
 - **Paciência**: Dependendo do tamanho do seu dataset e da potência da máquina, o treino pode levar de 3 horas a 3 dias. Mas o resultado final, quando você ouvir sua voz sintetizada pela primeira vez, é uma sensação que não tem preço!
 
-Boa sorte no treinamento, futuro criador de IA vocal!
+

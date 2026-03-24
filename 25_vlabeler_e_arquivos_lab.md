@@ -35,4 +35,4 @@ Ninguém merece rotular 2 horas de áudio na mão, né?
 2. **Consistência Fonética**: Use sempre o mesmo dicionário de fonemas (ex: se usar `nh`, use sempre `nh`, não mude pra `nj` no meio do projeto).
 3. **Salve Sempre**: Perder o trabalho de rotulagem é frustrante demais. Crie backups constantes das suas pastas de labels.
 
-Pode parecer uma etapa chata, mas rotular bem o seu banco é o que garante que seu personagem AI vá cantar com a dicção perfeita de um profissional. Força aí!
+

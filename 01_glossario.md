@@ -26,10 +26,10 @@ Se você caiu de paraquedas no mundo do UTAU, deve ter dado de cara com um monte
 
 ### Outros Conceitos
 
-- **Wavtool**: Trabalha junto com o resampler pra "colar" os pedacinhos de áudio e formar a música final.
+- **wavtool**: Trabalha junto com o resampler pra "colar" os pedacinhos de áudio e formar a música final.
 - **Rendering**: É o processo de "cozinhar" a música. Quando você aperta o play e o programa gera o som, ele está renderizando.
 - **Bank**: Abreviação de Voicebank.
 - **Voicer**: A pessoa real que emprestou a voz para gravar o banco.
 - **UTAUloid / UTAU**: O personagem virtual em si (tipo a Kasane Teto).
 
-Pronto! Agora que você já manja das gírias, fica muito mais fácil seguir os tutoriais. Ficou na dúvida? Volta aqui e dá uma conferida.
+

@@ -12,9 +12,9 @@ O resampler é o programa que pega o áudio original do seu banco de voz e o est
 
 ---
 
-### E o Wavtool, serve pra quê?
+### E o wavtool, serve pra quê?
 
-Depois que o resampler processou todos os pedacinhos de áudio, o Wavtool entra em cena pra "colar" tudo. Ele é o responsável por fazer as emendas entre um `ka` e um `sa`, por exemplo, garantindo que não tenha estalos ou silêncios entre as notas.
+Depois que o resampler processou todos os pedacinhos de áudio, o wavtool entra em cena pra "colar" tudo. Ele é o responsável por fazer as emendas entre um `ka` e um `sa`, por exemplo, garantindo que não tenha estalos ou silêncios entre as notas.
 
 ---
 
@@ -37,7 +37,7 @@ O UTAU prefere áudios em formato **.wav**, 16-bit ou 24-bit, Mono, com 44.1kHz.
 
 1. Você desenha a nota.
 2. O **Resampler** calcula o tom e a duração.
-3. O **Wavtool** junta tudo.
+3. O **wavtool** junta tudo.
 4. O som sai pelos seus fones.
 
-Entender essa "logística" ajuda muito na hora de descobrir por que algo não está funcionando como deveria. No fim das contas, é tudo matemática e processamento de sinal, mas a gente só quer que soe bonito, né?
+

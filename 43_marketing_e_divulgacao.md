@@ -41,4 +41,4 @@ Nada afasta mais um usuário do que um site cheio de propaganda ou um link quebr
 
 Peça (ou faça) uma arte bem bonita pra capa do vídeo de demo. Uma "Thumbnail" chamativa faz toda a diferença no número de cliques.
 
-Lembre-se: o sucesso não vem da noite pro dia. Continue produzindo, postando e interagindo. Quando você menos esperar, vai ver uma arte do seu personagem feita por um desconhecido, e essa é uma das melhores sensações desse hobby!
+

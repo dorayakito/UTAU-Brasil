@@ -43,4 +43,4 @@ Se você não sabe desenhar, não tem problema!
 
 Na pasta do seu banco de voz, inclua sempre uma imagem de referência clara (Reference Sheet). Isso mostra as cores e as roupas do personagem de frente, de costas e de lado. Quem quiser fazer uma fanart do seu UTAU vai te agradecer eternamente por isso.
 
-O design é a primeira coisa que as pessoas veem antes mesmo de apertar o play. Capriche no visual e deixe o mundo se apaixonar pelo seu personagem!
+

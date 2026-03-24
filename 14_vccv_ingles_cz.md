@@ -33,4 +33,4 @@ Antigamente, usar VCCV era um pesadelo de códigos. Hoje, o OpenUtau facilita tu
 Configurar um banco VCCV é um trabalho para os fortes.
 - Minha recomendação: use um template de oto.ini pronto se estiver usando uma reclist padrão. Isso te economiza semanas de trabalho manual ajustando cada som de `th`, `sh` e `ch`.
 
-Dominar o inglês no UTAU abre portas pra você atingir o mundo inteiro com suas músicas. Vale muito a pena o esforço extra!
+

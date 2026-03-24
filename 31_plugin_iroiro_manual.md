@@ -27,12 +27,8 @@ Muita coisa! Ele tem dezenas de funções, mas as que você mais vai usar são:
 
 ---
 
-### Vale Muito a Pena!
 
-O Iroiro é uma daquelas ferramentas que, depois que você aprende a usar, você se pergunta como viveu sem ela. Ele deixa o processo de tuning muito mais focado na parte divertida (a música) e menos na parte burocrática de ficar digitando sufixo nota por nota.
 
 ---
 
-### E o OpenUtau?
 
-Boa notícia: O OpenUtau já faz quase tudo o que o Iroiro faz de forma nativa! Mas pra quem ainda ama a carinha de "velha guarda" do UTAU original, o Iroiro é indispensável. Dá uma chance pra ele!

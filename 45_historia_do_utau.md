@@ -40,4 +40,4 @@ Diferente de outros programas comerciais, o UTAU pertence aos usuários.
 - É você quem cria a voz, é você quem faz as regras.
 - Ser parte dessa história é gratificante demais. Quando você usa o programa hoje, você está carregando o legado de milhares de pessoas que, desde 2008, decidiram que a música virtual deveria ser livre pra todos.
 
-O UTAU não é apenas um software; é um movimento artístico. Que sorte a nossa fazer parte disso!
+

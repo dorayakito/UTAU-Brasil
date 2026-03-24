@@ -39,4 +39,4 @@ Se você quer criar sua própria voz, esses aqui são essenciais:
 
 Se você for usar o **UTAU Clássico**, você **PRECISA** mudar o "Local do Sistema" do seu Windows para **Japonês**. Se não fizer isso, o programa não vai conseguir ler os arquivos e as vozes vão sair mudas ou com erro. No OpenUtau você não precisa se preocupar com isso.
 
-Escolha seu software e vamos pra próxima etapa!
+

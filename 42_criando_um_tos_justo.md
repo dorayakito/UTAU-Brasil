@@ -33,4 +33,4 @@ Coloque seu TOS dentro de um arquivo chamado `readme.txt` na pasta principal do 
 
 Se as suas regras forem muito rígidas (ex: "não pode fazer cover de rock"), poucas pessoas vão querer usar seu banco. O segredo de um bom TOS é equilibrar a proteção do seu personagem com a liberdade criativa dos produtores.
 
-Um TOS bem feito dá segurança pra todo mundo e mostra que você leva seu projeto a sério. Proteja sua arte!
+

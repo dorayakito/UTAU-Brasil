@@ -32,4 +32,4 @@ Diferente do UTAU clássico que corta e estica áudios (concatenativo), o DiffSi
 2. Arraste pro programa.
 3. Certifique-se de que o renderizador está configurado para IA (geralmente ele faz isso sozinho).
 
-O DiffSinger é o futuro batendo na nossa porta. Mesmo que você ame o som clássico do UTAU, vale a pena dar uma chance e ver o que essa tecnologia é capaz de fazer. É de cair o queixo!
+

@@ -43,4 +43,4 @@ A parte mais legal é que você pode começar uma nota como `Soft` e terminar co
 - **Não exagere**: Usar muitos appends diferentes numa música curta pode deixar a voz confusa. Escolha um estilo principal e use os outros pra dar destaque a momentos específicos.
 - **Consistência de OTO**: Lembre-se que cada append precisa da sua própria OTO. Um banco Soft mal OTOado vai estragar todo o clima que você quis criar.
 
-Dar sentimentos ao seu UTAU é o que faz dele um verdadeiro artista virtual. Explore as nuances da sua voz!
+

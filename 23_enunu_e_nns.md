@@ -31,4 +31,4 @@ O suporte ao ENUNU no OpenUtau é nativo. Você instala o banco e ele já identi
 
 Mesmo que você prefira o som clássico ("Old School") do UTAU, entender como a IA funciona te ajuda a ser um produtor melhor. Muitas técnicas de tuning que a gente usa na IA podem ser adaptadas pra deixar os bancos clássicos mais realistas também.
 
-A Inteligência Artificial não veio pra substituir o nosso trabalho, mas sim pra dar ferramentas novas pra gente criar músicas cada vez melhores. Divirta-se explorando!
+

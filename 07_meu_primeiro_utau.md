@@ -40,4 +40,4 @@ Depois de terminar as gravações:
 
 Gravar é só 50% do trabalho. Agora vem a parte de dizer pro programa como usar esses áudios (a famosa oto.ini). Mas não se desespere, a gente tem um guia só pra isso.
 
-Respire fundo, beba uma água e vamos gravar!
+

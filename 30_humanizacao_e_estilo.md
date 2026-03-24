@@ -40,4 +40,4 @@ Sabe quando a música é muito rápida e o cantor parece estar "correndo" atrás
 
 Pegue a gravação de um cantor real que você gosta. Olhe pro gráfico dele (se tiver) ou apenas escute com muita atenção. Onde ele respira? Onde a voz dele treme? Onde ele soa mais soproso? Tente imitar cada um desses mini-detalhes visualmente no seu projeto de UTAU.
 
-O realismo no UTAU é uma arte de detalhes. Quanto mais "sujeira" e "humanidade" você colocar nas curvas, mais emocionante e crível o resultado final vai ser. Mãos à obra!
+

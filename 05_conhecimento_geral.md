@@ -42,4 +42,4 @@ Muitas coisas legais só estão em japonês. Aqui vão algumas palavras-chave pr
 
 Meu conselho de amigo: crie uma pasta só pra suas vozes e outra só pros seus projetos. Com o tempo, você vai acumulando centenas de arquivos e, se não estiver organizado, vai ser um pesadelo achar aquela voz específica que você ama.
 
-Explorar a comunidade é metade da diversão. Divirta-se descobrindo novos cantores virtuais!
+

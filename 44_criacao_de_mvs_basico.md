@@ -44,4 +44,4 @@ Se você tem um modelo 3D do seu personagem:
 - **Grátis**: CapCut, DaVinci Resolve (versão grátis), AviUtl (o clássico japonês).
 - **Pago**: Adobe Premiere, After Effects, Sony Vegas.
 
-Não se cobre perfeição no primeiro vídeo. Comece simples e vá adicionando novos efeitos conforme você aprende. O importante é mostrar o seu trabalho pro mundo!
+

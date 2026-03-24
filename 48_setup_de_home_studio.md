@@ -37,4 +37,4 @@ Não deixe o volume de gravação chegar no "vermelho".
 
 ### Comece Pequeno!
 
-Não gaste rios de dinheiro logo de cara. O mais importante no UTAU é a sua criatividade e o cuidado que você tem com a OTO. O equipamento ajuda, mas quem faz a mágica acontecer é o artista. Mãos à obra!
+

@@ -23,4 +23,4 @@ Ao abrir o programa, você vê a "onda" do som e algumas linhas coloridas:
 2. **Batch Processing**: O SetParam permite pular para a próxima amostra automaticamente. Se você planejar bem suas gravações com o OREMO, configurar a OTO no SetParam vira um processo mecânico e rápido.
 3. **Exportação**: Não esqueça de salvar (`Ctrl+S`). O UTAU só vai ver as mudanças depois que você salvar o arquivo `oto.ini` no SetParam.
 
-Com um pouco de prática, você vai começar a "enxergar" os sons nessas linhas coloridas. Uma OTO bem feita com o SetParam é a base de qualquer música de sucesso!
+

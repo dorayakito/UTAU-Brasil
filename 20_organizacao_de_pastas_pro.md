@@ -42,4 +42,4 @@ Se você quer que seu banco brilhe no OpenUtau, você pode criar um arquivo `cha
 - **Limpeza**: Delete arquivos temporários que não servem pra nada (tipo arquivos `.frq` de resamplers que você não usa mais) antes de distribuir seu banco.
 - **Compressão**: Na hora de enviar pra internet, use `.zip`. Evite `.rar` ou formatos menos comuns, pois o `.zip` é o padrão que o UTAU e o OpenUtau conseguem ler direto.
 
-Um banco organizado é um banco fácil de usar. Os produtores vão te agradecer e o seu personagem vai ter muito mais chances de ser escolhido pra novas músicas Covers!
+

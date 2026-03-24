@@ -37,4 +37,4 @@ São métodos específicos para línguas como o inglês, focando nas consoantes 
 
 Se o seu objetivo é o japonês e você quer qualidade, o **VCV** é o padrão de ouro. Para o português brasileiro, eu recomendo fortemente o **CVVC/CVC**, porque ele lida muito melhor com os nossos ditongos e consoantes finais.
 
-Não tenha medo de experimentar! Muitos bancos famosos começaram sendo CV e depois foram evoluindo conforme o criador ganhava confiança.
+

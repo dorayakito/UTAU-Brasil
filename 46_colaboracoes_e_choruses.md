@@ -33,4 +33,4 @@ Se você quer organizar um projeto:
 - Tenha uma comunicação clara: diga exatamente qual música, qual o prazo e quais as vozes você quer.
 - Use ferramentas como o **Discord** ou o **Trello** pra gerenciar quem já entregou o quê.
 
-Colaborar é aprender. Você vai descobrir novos jeitos de mixar, novas vozes incríveis e, principalmente, vai sentir que faz parte de algo maior. Vamos cantar juntos!
+

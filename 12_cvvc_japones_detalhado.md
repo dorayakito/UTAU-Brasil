@@ -36,4 +36,4 @@ O OpenUtau adora o CVVC.
 A configuração (oto.ini) aqui foca muito nos arquivos `VC`:
 - O segredo é garantir que o som da consoante final (o `k` do `a k`) esteja bem cortadinho e com um overlap generoso pra "morder" a nota seguinte no tempo certo.
 
-Se você está achando o VCV pesado demais e o CV robótico demais, o CVVC é o seu porto seguro. Dá um abraço nesse método que ele não morde!
+
