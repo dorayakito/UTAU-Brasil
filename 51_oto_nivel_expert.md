@@ -224,27 +224,27 @@ Isso é análogo ao conceito de **attack preservation** em samplers como o Konta
 
 **O que é:** O cutoff define o **ponto de término** do sample utilizável. Ele é expresso de forma diferente das demais:
 
-- **Valor negativo:** posição relativa ao **fim do arquivo**. Ex: `−400` significa "400ms antes do final do arquivo".
-- **Valor positivo:** posição absoluta a partir do offset (menos comum, mais usado em VCV japonês clássico).
+- **Valor positivo:** posição relativa ao **fim do arquivo**. Ex: `−400` significa "400ms antes do final do arquivo".
+- **Valor negativo:** posição absoluta a partir do offset (mais usado em VCV japonês clássico).
 
 **Representação:**
 ```
-end_point = file_duration + cutoff          (quando cutoff < 0)
-end_point = offset + cutoff                 (quando cutoff > 0)
+end_point = file_duration + cutoff          (quando cutoff > 0)
+end_point = offset + cutoff                 (quando cutoff < 0)
 ```
 
 **O que representa fisicamente:** Descarta o silêncio, ruído ou decaimento indesejado ao final do arquivo. A região `[end_point, file_end]` é ignorada.
 
 **Interação com o resampler:**
 
-O resampler usa `end_point` como o limite máximo de where ele pode buscar samples para stretch. Se a nota requerida for mais longa do que `end_point - (offset + consonant)`, o resampler loopa ou extende a região stretchable -  dependendo do resampler e das flags de loop configuradas.
+O resampler usa `end_point` como o limite máximo de `where` ele pode buscar samples para stretch. Se a nota requerida for mais longa do que `end_point - (offset + consonant)`, o resampler loopa ou extende a região stretchable (esticável) -  dependendo do resampler e das flags de loop configuradas.
 
 **Boas práticas:**
 - Cortar antes do decaimento natural da vogal (para bancos que fazem crossfade entre notas).
 - Cortar antes de qualquer clique, ruído de microfone ou respiração no final do arquivo.
 - Em bancos VCV, o cutoff geralmente cai dentro da região de overlap da vogal seguinte.
 
-**Configuração no SetParam:** Barra vermelha à direita (limite direito da região utilizável). Valores negativos são mostrados com seta apontando para a esquerda a partir do final.
+**Configuração no SetParam:** Barra à direita (limite direito da região utilizável). Valores negativos são mostrados com seta apontando para a esquerda a partir do final.
 
 ---
 
@@ -281,7 +281,7 @@ Isso significa que preutterance afeta diretamente a **quantidade de material que
 **Boas práticas:**
 - Para consoantes oclusivas (p, b, t, d, k, g): preutterance logo após o burst de release -  geralmente 50–90ms.
 - Para consoantes fricativas (s, sh, f): preutterance no meio da fricativa -  60–100ms.
-- Para vogais bare (em VCV): preutterance muito pequena ou zero -  20–50ms.
+- Para vogais bare (em VCV): muito pequena -  20–50ms.
 - Para sons nasais (n, m): 40–70ms.
 
 **Configuração no SetParam:** Barra vermelha vertical (linha de corte que indica onde o beat cai dentro do sample).
@@ -344,7 +344,7 @@ UST Note
     ├── Time-stretches/pitch-shifts [offset+consonant, end_ms] para atingir duração requerida
     └── Escreve output em arquivo temporário
          ↓
-[wavtool] (ex: wavtool.exe, wavtool-v4c, mf)
+[wavtool] (ex: wavtool.exe, wavtool4vcv, mf)
     ├── Recebe: output.wav, destino_na_timeline, preutterance, overlap
     ├── Faz seek na timeline de output para (timestamp - preutterance)
     ├── Aplica crossfade com sample anterior por (overlap) ms
@@ -540,7 +540,7 @@ cd Copaiba-NEO
 cargo run
 ```
 
-Binários pré-compilados estão disponíveis na aba Releases do repositório (versão mais recente: v140 Canary, março de 2026).
+Binários pré-compilados estão disponíveis na aba Releases do repositório.
 
 **Visualização de áudio:**
 
@@ -711,12 +711,12 @@ write_oto(entries, 'oto_modified.ini')
 
 ### 7.1 Convenções de nomenclatura
 
-A nomenclatura de aliases é critical para a correta lookup por parte dos plugins de UST e front-ends como OpenUTAU. As convenções variam por tipo de banco e língua alvo.
+A nomenclatura de aliases é crítica para um lookup correto por parte dos plugins de UST e front-ends como OpenUTAU. As convenções variam por tipo de banco e língua alvo.
 
 **Japonês (hiragana/katakana):**
 - CV japonês: aliases em hiragana -  `あ`, `い`, `か`, `き`, etc.
-- VCV japonês: `- あ` (início de frase com silêncio), `あ あ`, `あ か`, etc.
-- R (respiração): `R`, `br`, `breath`
+- VCV japonês: `- あ` (início de frase com silêncio), `a あ`, `a か`, etc.
+- R (respiração): `x R`, `br`, `breath`
 
 **Inglês (Arpabet):**
 - Fonemas Arpabet: `ae`, `ah`, `b`, `ch`, `d`, etc.
@@ -762,7 +762,7 @@ Aliases convencionais para elementos não-fonéticos:
 | `R` | Respiração (breath sample) |
 | `息` | Respiração (japonês) |
 | `_` | Pausa explícita |
-| `pau` | Pause (Sinsy/Enunu convention) |
+| `pau` | Pause (Sinsy/Enunu) |
 | `AP` | Aspiration pause |
 | `SP` | Silence pause |
 | `breath` | Respiração genérica |
@@ -785,12 +785,12 @@ O formato CV é o mais simples: um arquivo por sílaba, com a consoante seguida 
 ```
 filename.wav = alias, offset, consonant, cutoff, preutterance, overlap
 
-か.wav=か,10,70,-350,80,40
-さ.wav=さ,10,90,-350,100,50
-た.wav=た,10,60,-350,75,35
-な.wav=な,10,50,-350,60,30
-は.wav=は,10,80,-350,90,45
-あ.wav=あ,10,20,-400,30,15
+か.wav=ka,10,70,-350,80,40
+さ.wav=sa,10,90,-350,100,50
+た.wav=ta,10,60,-350,75,35
+な.wav=na,10,50,-350,60,30
+は.wav=ha,10,80,-350,90,45
+あ.wav=a,10,20,-400,30,15
 ```
 
 **Regras de configuração por categoria de fonema:**
@@ -1005,7 +1005,7 @@ B3	_C3
 C4	_F3
 ...
 E4	_F3
-F4	_A3
+はF4	_A3
 ...
 ```
 
